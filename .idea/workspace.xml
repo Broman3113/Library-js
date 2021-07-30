@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d327588-6e36-4e4f-beb2-57d581747edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/lib/modules/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/lib/modules/handlers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/core.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/core.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/classes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/classes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/lib/modules/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/modules/actions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +47,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627542500474</updated>
       <workItem from="1627542502532" duration="8530000" />
+      <workItem from="1627629978875" duration="7618000" />
     </task>
     <task id="LOCAL-00001" summary="Added shortcut &quot;$&quot; for querySelectorAll and functions show, hide, toggle">
       <created>1627546902251</created>
@@ -74,6 +72,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added shortcut &quot;$&quot; for querySelectorAll and functions show, hide, toggle" />
