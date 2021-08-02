@@ -2,13 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d327588-6e36-4e4f-beb2-57d581747edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/lib/modules/effects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/tab.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/components/ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/general/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/classes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/margin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/padding.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sass/helpers/sizes.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sass/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +37,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.2" />
+        <entry key="$PROJECT_DIR$" value="v0.3" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,6 +54,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\A\Frontend\Udemy\JS Andvanced\Module 4\Source\src\sass" />
+      <recent name="F:\A\Frontend\Udemy\JS Andvanced\Module 4\Source\src" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -54,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1627546902252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added effect animations FadeIn and FadeOut">
+      <created>1627888941132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1627888941132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -71,7 +103,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="v0.3" />
+                        <option value="v0.4" />
                       </list>
                     </value>
                   </entry>
@@ -86,6 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added shortcut &quot;$&quot; for querySelectorAll and functions show, hide, toggle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added shortcut &quot;$&quot; for querySelectorAll and functions show, hide, toggle" />
+    <MESSAGE value="Added effect animations FadeIn and FadeOut" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added effect animations FadeIn and FadeOut" />
   </component>
 </project>
