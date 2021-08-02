@@ -10,5 +10,6 @@ $('div').click(function() {
 
 // console.log($('div').eq(2).find('.some'));
 // console.log($('.some').closest('.findme1').addClass('hi'));
-
-console.log($('.findme').eq(0).siblings());
+//
+// console.log($('.findme').eq(0).siblings());
+$('.findme').fadeIn(1800);
