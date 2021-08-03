@@ -9,5 +9,5 @@ $('[data-count="second"]').on('click', () => {
 });
 
 $('button').eq(2).click(() => {
-    $('.w-500').fadeOut(800);
+    $('.w-500').fadeToggle(800, 'inline-block');
 })
