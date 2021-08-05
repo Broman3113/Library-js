@@ -20,7 +20,6 @@ $('.wrap').html(
         </div>`
 );
 
-$('.dropdown-toggle').dropDown();
 
 $('#trigger').click(() => $('#trigger').createModal({
     text: {
