@@ -67,4 +67,7 @@ $('.lol').createCarousel({
             'https://static.wikia.nocookie.net/disney/images/2/2d/Treasure-planet-disneyscreencaps.com-233.jpg/revision/latest?cb=20130403024637'
         ]
     }
-})
+});
+
+$().get('https://jsonplaceholder.typicode.com/todos/1')
+    .then(res => console.log(res));

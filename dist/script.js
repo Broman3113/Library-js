@@ -489,6 +489,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_tab__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/tab */ "./src/js/lib/components/tab.js");
 /* harmony import */ var _components_accordion__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/accordion */ "./src/js/lib/components/accordion.js");
 /* harmony import */ var _components_carousel__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/carousel */ "./src/js/lib/components/carousel.js");
+/* harmony import */ var _services_requests__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/requests */ "./src/js/lib/services/requests.js");
+
 
 
 
@@ -880,6 +882,57 @@ _core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.click = function (handle
 
 /***/ }),
 
+/***/ "./src/js/lib/services/requests.js":
+/*!*****************************************!*\
+  !*** ./src/js/lib/services/requests.js ***!
+  \*****************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../core */ "./src/js/lib/core.js");
+
+
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.get = async function (url, dataTypeAnswer = 'json') {
+  let res = await fetch(url);
+
+  if (!res.ok) {
+    throw new Error(`Couldn't fetch ${url}, status: ${res.status}`);
+  }
+
+  switch (dataTypeAnswer) {
+    case 'json':
+      return await res.json();
+
+    case 'text':
+      return await res.text();
+
+    case 'blob':
+      return await res.blob();
+  }
+};
+
+_core__WEBPACK_IMPORTED_MODULE_0__["default"].prototype.post = async function (url, data, dataTypeAnswer = 'text') {
+  let res = await fetch(url, {
+    method: 'POST',
+    body: data
+  });
+
+  switch (dataTypeAnswer) {
+    case 'json':
+      return await res.json();
+
+    case 'text':
+      return await res.text();
+
+    case 'blob':
+      return await res.blob();
+  }
+};
+
+/***/ }),
+
 /***/ "./src/js/main.js":
 /*!************************!*\
   !*** ./src/js/main.js ***!
@@ -934,6 +987,7 @@ Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])('.lol').createCarousel(
     images: ['https://external-preview.redd.it/ODWbknJyIknx7ltFAMt-_TMgSDFHqoKXCLMrJR5sYOU.jpg?auto=webp&s=8e961e6afbc8984f0b0e0592adbd12da0e47a543', 'https://i.pinimg.com/originals/d2/cf/ed/d2cfed3d0eb1b5a543744d8c5f1bd396.jpg', 'https://p4.wallpaperbetter.com/wallpaper/405/544/857/treasure-planet-disney-clouds-face-stars-hd-wallpaper-preview.jpg', 'https://c4.wallpaperflare.com/wallpaper/980/308/988/treasure-planet-disney-space-ship-boat-hd-wallpaper-preview.jpg', 'https://static.wikia.nocookie.net/disney/images/2/2d/Treasure-planet-disneyscreencaps.com-233.jpg/revision/latest?cb=20130403024637']
   }
 });
+Object(_lib_lib__WEBPACK_IMPORTED_MODULE_0__["default"])().get('https://jsonplaceholder.typicode.com/todos/1').then(res => console.log(res));
 
 /***/ })
 
