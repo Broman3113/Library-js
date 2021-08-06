@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d327588-6e36-4e4f-beb2-57d581747edf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/lib/components/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/lib/services/requests.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/lib/lib.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/lib/lib.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/components/carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sass/components/carousel.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="v0.7" />
+        <entry key="$PROJECT_DIR$" value="v0.8" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -61,7 +56,7 @@
       <workItem from="1627970319332" duration="4648000" />
       <workItem from="1628065319441" duration="9530000" />
       <workItem from="1628146433998" duration="4628000" />
-      <workItem from="1628235327724" duration="13108000" />
+      <workItem from="1628235327724" duration="14011000" />
     </task>
     <task id="LOCAL-00001" summary="Added shortcut &quot;$&quot; for querySelectorAll and functions show, hide, toggle">
       <created>1627546902251</created>
@@ -112,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628150466565</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added static and dynamic slider render. Added possibility to configure dynamic slider.">
+      <created>1628249162613</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1628249162613</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +152,7 @@
     <MESSAGE value="Added dropdown component" />
     <MESSAGE value="Added modal component and dynamical modal render." />
     <MESSAGE value="Added tab and accordion components" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tab and accordion components" />
+    <MESSAGE value="Added static and dynamic slider render. Added possibility to configure dynamic slider." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added static and dynamic slider render. Added possibility to configure dynamic slider." />
   </component>
 </project>
