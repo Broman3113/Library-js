@@ -277,7 +277,8 @@
     overflow: hidden; }
   .carousel-slides {
     height: 100%;
-    display: flex; }
+    display: flex;
+    transition: all .3s; }
   .carousel-item {
     height: 100%; }
     .carousel-item img {
