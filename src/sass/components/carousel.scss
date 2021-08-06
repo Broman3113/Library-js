@@ -42,6 +42,7 @@
     &-slides {
         height: 100%;
         display: flex;
+        transition: all .3s;
     }
     &-item {
         height: 100%;
