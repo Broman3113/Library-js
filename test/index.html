@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/lib.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="carousels">
+    <div class="container">
+        <h1 class="text-center">Treasure Planet</h1>
+        <h2 class="text-center mt-20">This app uses custom lib</h2>
+
+        <div class="carousel" id="example">
+            <ol class="carousel-indicators">
+                <li class="active" data-slide-to="0"></li>
+                <li data-slide-to="1"></li>
+                <li data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-slides">
+                    <div class="carousel-item">
+                        <img src="https://i.pinimg.com/originals/d2/cf/ed/d2cfed3d0eb1b5a543744d8c5f1bd396.jpg" alt="1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://external-preview.redd.it/ODWbknJyIknx7ltFAMt-_TMgSDFHqoKXCLMrJR5sYOU.jpg?auto=webp&s=8e961e6afbc8984f0b0e0592adbd12da0e47a543"
+                             alt="2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://p4.wallpaperbetter.com/wallpaper/405/544/857/treasure-planet-disney-clouds-face-stars-hd-wallpaper-preview.jpg"
+                             alt="3">
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="carousel-prev" data-slide="prev">
+                <span class="carousel-prev-icon">&lt;</span>
+            </a>
+            <a href="#" class="carousel-next" data-slide="next">
+                <span class="carousel-prev-icon">&gt;</span>
+            </a>
+        </div>
+
+
+    </div>
+
+    <div class="code mt-20">
+        <div class="code-header">
+            <h3 class="code-header-text text-center">index.html</h3>
+        </div>
+        <div class="code-body">
+            <textarea>
+                <div class="carousel" id="example">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-slide-to="0"></li>
+                        <li data-slide-to="1"></li>
+                        <li data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-slides">
+                            <div class="carousel-item">
+                                <img src="https://i.pinimg.com/originals/d2/cf/ed/d2cfed3d0eb1b5a543744d8c5f1bd396.jpg" alt="1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://external-preview.redd.it/ODWbknJyIknx7ltFAMt-_TMgSDFHqoKXCLMrJR5sYOU.jpg?auto=webp&s=8e961e6afbc8984f0b0e0592adbd12da0e47a543"
+                                     alt="2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://p4.wallpaperbetter.com/wallpaper/405/544/857/treasure-planet-disney-clouds-face-stars-hd-wallpaper-preview.jpg"
+                                     alt="3">
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="carousel-prev" data-slide="prev">
+                        <span class="carousel-prev-icon">&lt;</span>
+                    </a>
+                    <a href="#" class="carousel-next" data-slide="next">
+                        <span class="carousel-prev-icon">&gt;</span>
+                    </a>
+                </div>
+            </textarea>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-center mt-20">Dynamic Carousel</h2>
+        <div class="dynamic-carousel"></div>
+    </div>
+
+    <div class="code mt-20">
+        <div class="code-header">
+            <h3 class="code-header-text text-center">index.html</h3>
+        </div>
+        <div class="code-body">
+            <textarea>
+                <h2 class="text-center mt-20">Dynamic Carousel</h2>
+                <div class="dynamic-carousel"></div>
+            </textarea>
+        </div>
+        <div class="code-header">
+            <h3 class="code-header-text text-center">script.js</h3>
+        </div>
+        <div class="code-body">
+            <textarea>
+                $('.dynamic-carousel').createCarousel({
+                    id: 'Hi',
+                    settings: {
+                        autoSlide: true,
+                        autoSlideSpeed: 2000, // Default value 5000
+                        images: [
+                            'https://external-preview.redd.it/ODWbknJyIknx7ltFAMt-_TMgSDFHqoKXCLMrJR5sYOU.jpg?auto=webp&s=8e961e6afbc8984f0b0e0592adbd12da0e47a543',
+                            'https://i.pinimg.com/originals/d2/cf/ed/d2cfed3d0eb1b5a543744d8c5f1bd396.jpg',
+                            'https://p4.wallpaperbetter.com/wallpaper/405/544/857/treasure-planet-disney-clouds-face-stars-hd-wallpaper-preview.jpg',
+                            'https://c4.wallpaperflare.com/wallpaper/980/308/988/treasure-planet-disney-space-ship-boat-hd-wallpaper-preview.jpg',
+                            'https://external-preview.redd.it/ODWbknJyIknx7ltFAMt-_TMgSDFHqoKXCLMrJR5sYOU.jpg?auto=webp&s=8e961e6afbc8984f0b0e0592adbd12da0e47a543'
+                        ]
+                    }
+                });
+            </textarea>
+        </div>
+    </div>
+
+</section>
+
+<section class="cards">
+    <h2 class="text-center">Cool pics</h2>
+
+    <div class="goods-items d-flex">
+        <div class="card mt-20">
+            <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg"
+                 alt="card-img" class="card-img">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aliquam
+                    atque
+                    blanditiis ea fugit id illum labore velit voluptas!</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link
+                    to</a>
+            </div>
+        </div>
+        <div class="card mt-20 ml-20">
+            <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg"
+                 alt="card-img" class="card-img">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aliquam
+                    atque
+                    blanditiis ea fugit id illum labore velit voluptas!</p>
+                <a href="#" class="btn btn-primary">Link
+                    to</a>
+            </div>
+        </div>
+        <div class="card mt-20 ml-20">
+            <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg"
+                 alt="card-img" class="card-img">
+            <div class="card-body">
+                <div class="card-title">Card title</div>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aliquam
+                    atque
+                    blanditiis ea fugit id illum labore velit voluptas!</p>
+                <a href="#" class="btn btn-primary">Link
+                    to</a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="code mt-20">
+    <div class="code-header">
+        <h3 class="code-header-text text-center">index.html</h3>
+    </div>
+    <div class="code-body">
+            <textarea>
+               <div class="card mt-20">
+                    <img src="https://www.pandasecurity.com/en/mediacenter/src/uploads/2013/11/pandasecurity-facebook-photo-privacy.jpg"
+                         alt="card-img" class="card-img">
+                    <div class="card-body">
+                        <div class="card-title">Card title</div>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aliquam
+                            atque
+                            blanditiis ea fugit id illum labore velit voluptas!</p>
+                        <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Link
+                            to</a>
+                    </div>
+                </div>
+            </textarea>
+    </div>
+</div>
+
+
+<section class="steps">
+    <div class="container">
+        <h2 class="text-center">Simple steps to get stars</h2>
+
+        <div class="tab mt-20 block-center w-100">
+            <div class="tab-panel" data-tabpanel>
+                <div class="tab-item tab-item--active">Content 1</div>
+                <div class="tab-item">Content 2</div>
+                <div class="tab-item">Content 3</div>
+            </div>
+            <div class="tab-content tab-content--active">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aspernatur ea eaque non
+                pariatur. Architecto cupiditate itaque, minima quas ratione tempora.
+            </div>
+            <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at, autem debitis eius
+                error fuga id ipsam nemo neque nulla officia pariatur porro quisquam quos sapiente temporibus vel veniam
+                voluptatem.
+            </div>
+            <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quisquam.</div>
+        </div>
+    </div>
+</section>
+<div class="code mt-20">
+    <div class="code-header">
+        <h3 class="code-header-text text-center">index.html</h3>
+    </div>
+    <div class="code-body">
+            <textarea>
+               <div class="tab mt-20 block-center w-100">
+                    <div class="tab-panel" data-tabpanel>
+                        <div class="tab-item tab-item--active">Content 1</div>
+                        <div class="tab-item">Content 2</div>
+                        <div class="tab-item">Content 3</div>
+                    </div>
+                    <div class="tab-content tab-content--active">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Aspernatur ea eaque non
+                        pariatur. Architecto cupiditate itaque, minima quas ratione tempora.
+                    </div>
+                    <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad at, autem debitis eius
+                        error fuga id ipsam nemo neque nulla officia pariatur porro quisquam quos sapiente temporibus vel veniam
+                        voluptatem.
+                    </div>
+                    <div class="tab-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quisquam.</div>
+                </div>
+            </textarea>
+    </div>
+</div>
+
+<section class="advantages">
+    <div class="accordion mt-20 block-center">
+        <div class="accordion-head">
+            <span>Collapse First Elem</span>
+        </div>
+        <div class="accordion-content">
+            <div class="accordion-inner">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                sapiente similique ut vero voluptatem. Accusantium.
+            </div>
+        </div>
+        <div class="accordion-head">
+            <span>Collapse Second Elem</span>
+        </div>
+        <div class="accordion-content">
+            <div class="accordion-inner">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                sapiente similique ut vero voluptatem. Accusantium.
+            </div>
+        </div>
+        <div class="accordion-head">
+            <span>Collapse Third Elem</span>
+        </div>
+        <div class="accordion-content">
+            <div class="accordion-inner">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                sapiente similique ut vero voluptatem. Accusantium.
+            </div>
+        </div>
+    </div>
+</section>
+<div class="code mt-20">
+    <div class="code-header">
+        <h3 class="code-header-text text-center">index.html</h3>
+    </div>
+    <div class="code-body">
+            <textarea>
+                <div class="accordion mt-20 block-center">
+                    <div class="accordion-head">
+                        <span>Collapse First Elem</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                            exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                            sapiente similique ut vero voluptatem. Accusantium.
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <span>Collapse Second Elem</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                            exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                            sapiente similique ut vero voluptatem. Accusantium.
+                        </div>
+                    </div>
+                    <div class="accordion-head">
+                        <span>Collapse Third Elem</span>
+                    </div>
+                    <div class="accordion-content">
+                        <div class="accordion-inner">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis culpa deserunt
+                            exercitationem explicabo facere fuga, ipsum magni nam nesciunt, possimus quae quidem reprehenderit,
+                            sapiente similique ut vero voluptatem. Accusantium.
+                        </div>
+                    </div>
+                </div>
+            </textarea>
+    </div>
+</div>
+
+<section class="feed">
+    <div class="container">
+        <h2 class="text-center">Call me</h2>
+
+        <form action="#">
+            <input type="email" required placeholder="Email">
+            <button class="btn btn-primary">Send</button>
+        </form>
+    </div>
+</section>
+<div class="code mt-20">
+    <div class="code-header">
+        <h3 class="code-header-text text-center">index.html</h3>
+    </div>
+    <div class="code-body">
+            <textarea>
+                <form action="#">
+                    <input type="email" required placeholder="Email">
+                    <button class="btn btn-primary">Send</button>
+                </form>
+            </textarea>
+    </div>
+</div>
+
+<div class="modal" id="exampleModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <button class="close" data-close>
+                <span>&times;</span>
+            </button>
+            <div class="modal-header">
+                <div class="modal-title">
+                    Modal title
+                </div>
+            </div>
+            <div class="modal-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere neque similique totam vero?
+                Adipisci asperiores corporis dignissimos eos excepturi in maxime nobis officia officiis, pariatur
+                quidem reiciendis, repellendus repudiandae unde, voluptatum. Alias at distinctio dolor dolorem,
+                ducimus ea ex fugit labore nulla odio, officiis quasi, ratione repellat sunt unde!
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-close>Close</button>
+                <button class="btn btn-success">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="btn btn-primary openmodal" data-toggle="modal" data-target="#exampleModal">Open modal</button>
+
+<div class="code mt-20">
+    <div class="code-header">
+        <h3 class="code-header-text text-center">index.html</h3>
+    </div>
+    <div class="code-body">
+            <textarea>
+                <div class="modal" id="exampleModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <button class="close" data-close>
+                                <span>&times;</span>
+                            </button>
+                            <div class="modal-header">
+                                <div class="modal-title">
+                                    Modal title
+                                </div>
+                            </div>
+                            <div class="modal-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum facere neque similique totam vero?
+                                Adipisci asperiores corporis dignissimos eos excepturi in maxime nobis officia officiis, pariatur
+                                quidem reiciendis, repellendus repudiandae unde, voluptatum. Alias at distinctio dolor dolorem,
+                                ducimus ea ex fugit labore nulla odio, officiis quasi, ratione repellat sunt unde!
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-danger" data-close>Close</button>
+                                <button class="btn btn-success">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </textarea>
+    </div>
+</div>
+
+<footer class="d-flex f-centered">
+    <div class="text-color-danger">Created with &hearts;</div>
+</footer>
+
+
+<script src="js/lib.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
