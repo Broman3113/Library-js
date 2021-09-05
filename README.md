@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a title="Library-js" href="https://github.com/Broman3113/Library-js">
-    <img src="src/assets/github.svg" alt="Logo" width="80" height="80">
+    <img src="/github.svg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Native JavaScript Library</h3>
