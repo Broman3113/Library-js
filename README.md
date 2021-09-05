@@ -79,7 +79,7 @@ To get a local copy up and running follow these simple example steps.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Broman3113/Library-js
+   git clone https://github.com/Broman3113/Library-js.git
    ```
 2. Install NPM packages
    ```sh
